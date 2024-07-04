@@ -4469,6 +4469,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  
 }
 
 .nav-link.disabled {
@@ -11365,6 +11366,7 @@ pre {
   margin: 0 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  color: #fff;
 }
 
 .navbar .navbar-nav .nav-link.active {
@@ -11663,4 +11665,17 @@ pre {
   /*set the size of the result div:*/
   width: 300px;
   height: 300px;
+}
+
+.darkThemeBGColor{
+  background-color: #212121
+}
+.darkThemeTEXTColor{
+  color: white;
+}
+.darkThemeTEXTColorGray{
+  color: #d5d4d4;
+}
+.darkThemeBGColorLightCard{
+  background-color: #515151
 }
